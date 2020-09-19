@@ -1,0 +1,3 @@
+const { loadRandomColor } = require("./lib/callbackFunctions");
+
+// Your code...
