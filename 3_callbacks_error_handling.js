@@ -3,3 +3,6 @@ const {
   loadUserDetails,
   SETTINGS,
 } = require("./lib/callbackFunctions");
+const { printUserProfile } = require("./lib/printUserProfile");
+
+// Implement your code...

@@ -1,6 +1,6 @@
-# 2. Callbacks - error handling
+# 3. Callbacks - error handling
 
-You are provided similar functions as in the previous assignment. However, this time they resemble a real-world scenario and may actually fail to load the data.
+You are provided similar functions as in the previous assignment. However, this time they resemble a real-world scenario, where the servers may actually fail to respond with the data.
 
 That is why your callbacks should now accept two arguments: the `error` and the `data`.
 
@@ -13,8 +13,7 @@ loadUserDetails(2, function (error, user) {
   } else {
     console.log(user.fullName);
     console.log(user.age);
-    console.log(user.likesFruits);
-    console.log(user.likesVegetables);*
+    console.log(user.interests);
   }
 });
 ```
@@ -29,7 +28,7 @@ Your task is to print the same results as in the previous assignment.
 }
 ```
 
-To actually simulate the errors, you are provided a `SETTINGS` object which you can edit:
+To actually simulate the errors, you are provided the `SETTINGS` object which you can edit:
 
 ```js
 {
