@@ -1,4 +1,4 @@
-# 1. Callbacks - optimistic
+# 1. Callbacks
 
 You are provided with 2 functions: `loadUser` and `loadUserDetails`.
 
