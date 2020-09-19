@@ -1,3 +1,3 @@
-const { loadRandomColor } = require("./lib/callbackFunctions");
+const { loadRandomColor, SETTINGS } = require("./lib/callbackFunctions");
 
 // Your code...
